@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="jquery-3.3.1.min.js" ></script>
+<script>
+	$(function(){
+		$("#btn1").on("click",function(){
+			$("#font1, #font2, #btn3, #btn4, #mar2, #mar3, #font3, #btn5").hide(100,function(){
+					});
+						$("#font0").hide(100,function(){
+					});
+			});
+		
+				
+				
+			//
+		$("#btn2").on("click",function(){
+			$("#font1").show("slow",function(){
+				});
+					$("#btn2").hide(100,function(){
+					});
+					$("#btn3").show("slow",function(){
+				});
+			});
+			
+				$("#btn3").on("click",function(){
+		
+				$("#font1, #mar").hide(100,function(){
+					});	
+					$("#font2, #mar2").show("slow",function(){
+				});
+					$("#btn3").hide(100,function(){
+					});
+					$("#btn4").show("slow",function(){
+				});
+			});
+			
+			$("#btn4").on("click",function(){
+		
+				$("#font2, #mar2").hide(100,function(){
+					});	
+					$("#font3, #mar3").show("slow",function(){
+				});
+					$("#btn4").hide(100,function(){
+					});
+					$("#btn5").show("slow",function(){
+				});
+			});
+
+		});
+
+
+</script>
+<style type="text/css">
+#all {margin:auto; width:1925px;}
+
+#font0 {height:1000px; margin:300px auto; text-align:center;width:1925px;}
+
+body {
+	background-image: url(bg.jpg);
+	background-repeat: repeat-x;
+	font-family:"둥근모꼴";
+	font-size:25px;
+	font-weight:300;
+}
+
+#mar {height:350px;}
+#mar2 {height:350px;}
+#mar3 {height:350px;}
+
+
+#font1 {width:800px;
+height:250px;
+background-image:url(Talk.png);
+background-repeat:no-repeat;
+margin:0 auto;
+margin-top:30px;
+text-align:center;
+}
+
+#font2 {width:800px;
+height:250px;
+background-image:url(Talk.png);
+background-repeat:no-repeat;
+margin:0 auto;
+margin-top:30px;
+text-align:center;
+}
+
+#font3 {width:800px;
+height:250px;
+background-image:url(Talk.png);
+background-repeat:no-repeat;
+margin:0 auto;
+margin-top:30px;
+text-align:center;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="font0">
+  <button id="btn1">start</button>
+</div>
+
+<body>
+<embed src="They+Need+a+Monster+-+UNDERTALE+SONG+by+MandoPony!+[Ft.+Mettaton+EX].mp3" width="0" height="0"></embed>
+</body>
+<div id="all">
+
+
+<div id="mar">
+<div id="font1">
+<br />
+<br />
+<br />
+안녕하세요.</div>
+</div>
+
+<div id="mar2">
+<div id="font2">
+<br />
+<br />
+<br />
+30425 최지은 발표를 시작합니다.
+</div>
+</div>
+
+
+<div id="mar3">
+<div id="font3">
+<br />
+<br />
+<br />
+여러분은 어떠한<s>최지은</s> 인물을 추적하는<br /> 
+탐정과 조수입니다.
+</div>
+</div>
+
+<center>
+<img src="title.png" height="500px"><br /><br />
+
+
+<button id="btn2">다음</button>
+
+<button id="btn3">다음</button>
+
+<button id="btn4">다음</button>
+
+<button id="btn5"  onclick="location.href='two.html'">다음</button>
+</center>
+</div>
+</body>
+</html>

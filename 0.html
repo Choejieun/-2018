@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	background-image: url(bg2.jpg);
+	background-repeat: no-repeat;
+}
+
+#maring {margin-top:100px; width:1925px; text-align:center; color:#fff; font-family:"둥근모꼴"}
+
+.container {width:1000px; margin:auto;}
+
+ul>li{list-style:none;
+		line-height:40px;}
+legend{color:#ff6666; }
+
+
+
+</style>
+</head>
+
+<body>
+<body>
+
+</body>
+<div id="maring">
+<div class="container">
+	<h2>동의서</h2>
+
+    <form action="menu1.html" target="top">
+    <fieldset>
+    <legend>개인 정보</legend>
+    <ul>
+    	<li>
+        <label for="my_name" class="title">
+        	이름</label><input type="text" id="my_name" />
+             
+        </li>
+        <li>
+        <label for="my_tel" class="title">
+        	이메일</label><input type="email" id="my_tel" />
+        	
+          </li>
+          <li>
+            <label for="my_pw" class="title">
+        	주민등록 번호</label><input type="text" id="my_pw" size="8" maxlength="6"/> -
+        	<input type="password" id="my_pw" size="8" maxlength="6"/>
+          </li>
+          <li>
+            <label for="ye" class="title">
+        	누적 범죄 횟수</label>
+        <select name="ye">
+          <option value="0">0</option>
+              <option value="1">1</option>
+                <option value="meny">엄청많다.</option>
+        </select>
+        </li>
+        <li>
+       
+                    <label for="my_number_one">자고싶다고 생각한 횟수 </label>
+            	<input type="number" id="my_number_one" value="0" min="0" max="99" step="1" size="5"/>
+           </li>
+           <li>
+           <label>너의 위험도</label>
+            <meter min="0" max="1240" low="500" high="1000" value="120"></meter>
+           </li>
+      
+    </ul>
+    </fieldset>    
+    
+    <input type="submit" value="전송"/>
+        <input type="reset" value="용지좀 새로 주시오."/>
+    </form>
+  
+    
+
+    </div>
+</div>
+
+</body>
+</html>

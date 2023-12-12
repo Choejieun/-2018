@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#but1").click(function(){
+        $("p").text("못 믿겠다.")
+	$("button").text("다음")
+$("#but1").hide(100,function(){
+					});
+
+				$(document).ready(function(){
+					$("button").click(function(){
+			$("p").text("정보상은 커텐뒤에 있다. 정보수집이 끝나면 다시 만난다.")
+			});
+			});
+			    });
+	$("#but2").on("click",function(){
+	$("#but2").hide(100,function(){
+					});
+});
+});
+
+$(document).ready(function(){
+    $("#but2").click(function(){
+        $("p").text("못 믿을 조수다.")
+	$("button").text("다음")
+$("#but2").hide(100,function(){
+					});
+					
+				$(document).ready(function(){
+					$("button").click(function(){
+			$("p").text("정보상은 커텐뒤에 있다. 정보수집이 끝나면 다시 만난다.")
+			});
+			});
+    });
+	$("#but1").on("click",function(){
+	$("#but1").hide(100,function(){
+					});
+});
+
+});
+</script>
+<style type="text/css">
+body {
+	background-color: #2B2356;
+	width:1925px;	background-image: url(bg.jpg);
+}
+#warp {width:1925px; height:300px; margin:0 auto; background-image:url(frame.png); background-repeat:no-repeat;}
+#a {float:left; margin-left:120px;margin-top:50px; overflow:hidden; height:300px;}
+#b {float:left; margin-left:50px; color:#FFF; font-family:"둥근모꼴"; font-size:18px;
+margin-top:50px; width:1000px;
+}
+</style>
+</head>
+
+<body>
+
+
+
+<div id="warp">
+<div id="a"><img src="jee Da ben.png" width="400" /></div>
+<div id="b">
+
+<p>제대로 하였나?</p>
+
+<form action="three.html" target="like">
+<button id="but1" type="submit">네.</button>
+<button id="but2" type="submit">아니요.</button></form>
+</div>
+</div>
+</body>
+</html>
